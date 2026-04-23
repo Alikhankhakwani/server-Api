@@ -1,0 +1,20 @@
+{
+  "name": "dha-bot-api",
+  "version": "1.0.0",
+  "description": "DHA Bot Backend API - Express + MSSQL",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^5.0.1",
+    "mssql": "^12.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "type": "commonjs"
+}
